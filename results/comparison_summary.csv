@@ -1,0 +1,5 @@
+speed_kmh,policy,failures,ping_pongs,interruption_ms,avg_throughput_mbps
+50,Baseline (3GPP A3),0.0,2.0,260.0,113.05352964413882
+50,Supervised ML,0.0,0.0,100.0,109.04143547212634
+130,Baseline (3GPP A3),0.0,0.6,140.0,113.07042562492907
+130,Supervised ML,0.0,0.0,100.0,110.29955759924758

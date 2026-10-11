@@ -1,0 +1,25 @@
+simulation:
+  time_step_s: 0.02           # 20 ms evaluation interval
+  ho_interruption_s: 0.05     # 50 ms connection interruption during handover
+  min_serving_rsrp_dbm: -115.0 # RSRP failure threshold
+  ping_pong_window_s: 1.0     # Maximum return time to be flagged as ping-pong
+  track_length_m: 1600.0      # Total trajectory distance across the 3 cells
+  seeds: [101, 202, 303, 404, 505]
+  speeds_kmh: [50, 130]       # Low and high mobility speeds
+
+radio:
+  carrier_freq_ghz: 3.5       # 5G NR mid-band
+  tx_power_dbm: 43.0          # Base station transmit power
+  bandwidth_mhz: 20.0         # Channel bandwidth
+  noise_floor_dbm: -104.0     # Thermal noise floor
+  shadowing_std_db: 4.0       # Standard deviation for log-normal shadowing
+
+cells:
+  coordinates:
+    - [0.0, 0.0]
+    - [800.0, 0.0]
+    - [1600.0, 0.0]
+
+baseline_a3:
+  hysteresis_db: 2.0          # Event A3 offset margin
+  time_to_trigger_s: 0.08     # 80 ms TTT
