@@ -36,7 +36,7 @@ All metrics are stored under `results/comparison_summary.csv` and plotted in `re
 4. **Average Throughput (Mbps)**
 
    
-##5 📹 Team Introduction & Orientation Video
+##5. 📹 Team Introduction & Orientation Video
 Watch our 2-minute project orientation and team role breakdown for AIORI-3 Hackathon (Team NetPilot - TC075):
 
 - **YouTube Video:** [Watch Team NetPilot Video](https://youtu.be/3ytTo65idq8)
