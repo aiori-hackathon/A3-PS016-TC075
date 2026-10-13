@@ -261,7 +261,7 @@ st.markdown("---")
 st.subheader("📋 Evaluation Audit Summary")
 st.dataframe(df_summary, use_container_width=True)
 
-csv_bytes = df_summary.to_csv(index=False).encode('utf-8')
+ csv_bytes = df_summary.to_csv(index=False).encode('utf-8')
 st.download_button(
     label="📥 Download Experiment Audit Data (CSV)",
     data=csv_bytes,
