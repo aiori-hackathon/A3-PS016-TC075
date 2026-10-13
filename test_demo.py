@@ -29,7 +29,7 @@ def run_rich_visual_demo():
     )
     ml_policy = SupervisedMLPolicy('models/random_forest_ho.pkl')
 
-    test_speed = 130  # km/h
+    test_speed = 130  
     test_seed = 101
 
     print(f"\n[*] Scenario Parameters:")
