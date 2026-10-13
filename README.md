@@ -34,3 +34,10 @@ All metrics are stored under `results/comparison_summary.csv` and plotted in `re
 2. **Ping-Pong Handover Events**
 3. **Connection Interruption Duration (ms)**
 4. **Average Throughput (Mbps)**
+
+   
+##5 📹 Team Introduction & Orientation Video
+Watch our 2-minute project orientation and team role breakdown for AIORI-3 Hackathon (Team NetPilot - TC075):
+
+- **YouTube Video:** [Watch Team NetPilot Video](https://youtu.be/3ytTo65idq8)
+- **Problem Statement:** PS-016 (Simulation-Based Handover Decision Evaluation for High-Mobility Users)
